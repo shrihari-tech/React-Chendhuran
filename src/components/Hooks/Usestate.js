@@ -17,7 +17,9 @@ const Usestate = () => {
     useEffect(()=>{
         console.log("useEffect Executed");
         setCount(100);
+
     },[count]);
+
 
     return (
         <div>

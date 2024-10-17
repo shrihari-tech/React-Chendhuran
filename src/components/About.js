@@ -7,6 +7,7 @@ const About = () => {
     }
     return (
         <div>
+            <h1>About</h1>
         <Home {...data} />
         {/* Home first={data.first} last = {data.last} */}
         </div>
