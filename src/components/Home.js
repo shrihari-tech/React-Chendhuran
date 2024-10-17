@@ -14,8 +14,9 @@ const Home = ({first,last}) => {
 
         <button onClick={handleClick}>About</button>
 
-        <Link to="/About">About</Link> &
-        <Link to="/state">State  </Link>
+        <Link to="/About">About</Link> <br/>
+        <Link to="/state">State  </Link><br/>
+        <Link to = "/store">Fake Store</Link>
         </div>
     );
 }
